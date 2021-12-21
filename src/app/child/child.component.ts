@@ -11,6 +11,8 @@ export class ChildComponent implements OnInit {
 
   @Input() childMessage: string;
 
+  message = 'message from child (viewchild) ';
+
   constructor() { }
 
   ngOnInit(): void {
